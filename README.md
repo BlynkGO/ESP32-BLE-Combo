@@ -1,6 +1,10 @@
 # ESP32 BLE Combo Keyboard & Mouse library
 
 This library allows you to make the ESP32 act as a Bluetooth keyboard and mouse with Arduino.
+And support `Media Key`.
+
+This library is  the fork of `Blackketter`'s [ESP-BLE-Compo](https://github.com/blackketter/ESP32-BLE-Combo).
+But  `Blackketter`'s version can not use `Media Key`.
 
 ## Todo
 
@@ -62,7 +66,7 @@ void loop() {
 ```
 ## Credits
 
-This is fork of @T-kV's excellent [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse)
+This is original fork of @T-kV's excellent [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse)
 and [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) libraries.
 
 You might also be interested in:
@@ -70,4 +74,6 @@ You might also be interested in:
 - [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse)
 - [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard)
 - [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad)
-
+  
+And fork of [ESP-BLE-Compo](https://github.com/blackketter/ESP32-BLE-Combo).
+But `Blackketter's ESP-BLE-Compo` version can not use `Media Key`.
